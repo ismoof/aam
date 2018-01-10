@@ -14,6 +14,7 @@
 $(document).ready(function() {
 
     var version = '1.1.2';
+    console.log('magicAAM loaded: '+version);
 
     $('#background, #attribution').css("background-image", "none");
 
@@ -183,7 +184,4 @@ $(document).ready(function() {
     });
 
 
-
-
-    console.log('Magic AAM loaded: '+version);
 });
